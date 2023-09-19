@@ -1,0 +1,8 @@
+O algoritmo Merge Sort é um algoritmo de ordenação baseado no paradigma Dividir e Conquistar.
+
+Neste algoritmo, a matriz é inicialmente dividida em duas metades iguais e, em seguida, elas são combinadas de forma ordenada.
+
+Funciona como um algoritmo recursivo que divide continuamente a matriz ao meio até que ela não possa mais ser dividida.
+Isso significa que se a matriz ficar vazia ou tiver apenas um elemento restante, a divisão será interrompida, ou seja, é o caso base para interromper a recursão.
+Se a matriz tiver vários elementos, divida a matriz em metades e invoque recursivamente a classificação de mesclagem em cada uma das metades.
+Finalmente, quando ambas as metades são classificadas, a operação de mesclagem é aplicada. A operação de mesclagem é o processo de pegar duas matrizes classificadas menores e combiná-las para, eventualmente, fazer uma maior.
